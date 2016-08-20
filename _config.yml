@@ -1,13 +1,13 @@
 # Setup
-title:        Project or Site name
-tagline:      A responsive theme for your project on GitHub Pages
+title:        Blogspam
+tagline:      This is my blog. Why do I have a blog? Not sure. I hate blogs.
 baseurl:      ""
 paginate:     1
 
 # About/contact
 author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+  name:       Kyle Emmerich
+  url:        https://kyle-emmerich.github.io
 
 # Gems
 gems:
