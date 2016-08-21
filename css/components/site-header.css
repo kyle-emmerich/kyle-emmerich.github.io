@@ -8,13 +8,13 @@
 	& > h1 {
 		color: var(--color-accent);
 		font-size: 3.8rem;
-		font-weight: 200;
+		font-weight: 100;
 	}
 
 	& > h2 {
 		font-size: 1.8rem;
 		margin-left: 2em;
-		font-weight: 200;
+		font-weight: 100;
 	}
 
 	@media screen and (max-width: 60rem) {
