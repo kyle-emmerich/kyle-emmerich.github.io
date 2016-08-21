@@ -422,7 +422,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 0;
 }
 [data-component="wysiwyg"] > p {
-	text-indent: 1rem;
+	text-indent: 1.5rem;
 }
 [data-component="wysiwyg"] > p > code {
 	font-family: monospace;
