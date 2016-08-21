@@ -1,6 +1,6 @@
 [data-component="wysiwyg"] {
 	font-size: 1.1rem;
-	line-height: 1.5;
+	line-height: 1.75;
 	font-weight: 300;
 
 	> * {
@@ -11,8 +11,12 @@
 		}
 	}
 
+	> p { 
+		text-indent: 1rem;
+	}
 	> p > code {
 		font-family: monospace;
+		text-indent: 0;
 	}
 
 	a {

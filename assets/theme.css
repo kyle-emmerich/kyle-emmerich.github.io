@@ -412,7 +412,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 [data-component="wysiwyg"] {
 	font-size: 1.1rem;
-	line-height: 1.5;
+	line-height: 1.75;
 	font-weight: 300;
 }
 [data-component="wysiwyg"] > * {
@@ -421,8 +421,12 @@ h1, h2, h3, h4, h5, h6 {
 [data-component="wysiwyg"] > *:first-child {
 	margin-top: 0;
 }
+[data-component="wysiwyg"] > p {
+	text-indent: 1rem;
+}
 [data-component="wysiwyg"] > p > code {
 	font-family: monospace;
+	text-indent: 0;
 }
 [data-component="wysiwyg"] a {
 	color: #5DCAE3;
