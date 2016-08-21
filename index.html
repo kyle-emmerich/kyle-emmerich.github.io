@@ -1,13 +1,19 @@
 ---
-layout: default
-title: {{ site.name }}
+layout: page
+slug: home
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+<section data-component="post-list" aria-label="Recent Posts">
+	{% for post in paginator.posts %}
+		<article data-component="post">
+			<h1>
+				<a href="{{ post.url }}">{{ post.title }}</a>
+			</h1>
+			<time class="date-posted" aria-label="Date posted: {{ post.date | date: "%F" }}">{{ post.date | date: "%F" }}</time>
+
+			<div class="content" data-component="wysiwyg">
+				{{ post.content }}
+			</div>
+		</article>
+	{% endfor %}
+</section>

@@ -1,0 +1,20 @@
+[data-component="wysiwyg"] {
+	font-size: 1.1rem;
+	font-weight: 300;
+
+	> * {
+		margin-top: 1rem;
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	> p > code {
+		font-family: monospace;
+	}
+
+	a {
+		color: var(--color-accent);
+	}
+}

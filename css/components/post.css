@@ -1,0 +1,32 @@
+[data-component="post"] {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+
+	> h1 {
+		font-size: 3rem;
+		font-weight: 200;
+	}
+
+	> .date-posted {
+		display: block;
+		padding-top: 0.2rem;
+		color: #666;
+	}
+
+	> .content {
+		margin: 0 0.5rem {
+			top: 1rem;
+		};
+	}
+
+	&:first-of-type:last-of-type {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	@media screen and (max-width: 60rem) {
+		> h1 {
+			font-size: 2.5rem;
+		}
+	}
+}

@@ -1,17 +1,17 @@
-# Setup
-title:        Blogspam
-tagline:      This is my blog. Why do I have a blog? Not sure. I hate blogs.
-baseurl:      ""
-paginate:     1
-
-# About/contact
-author:
-  name:       Kyle Emmerich
-  url:        https://kyle-emmerich.github.io
-
-# Gems
-gems:
-  - jekyll-paginate
-
-#Others
-markdown: kramdown
+gems: [jekyll-paginate]
+paginate: 8
+root: http://horriblesoftware.com
+timezone: America/Denver
+defaults:
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: "post"
+    -
+        scope:
+            path: ""
+            type: "pages"
+        values:
+            layout: "page"
