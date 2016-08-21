@@ -412,11 +412,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 [data-component="wysiwyg"] {
 	font-size: 1.3rem;
-	line-height: 1.15;
+	line-height: 1.5;
 	font-weight: 300;
 }
 [data-component="wysiwyg"] > * {
-	margin-top: 1rem;
+	margin-top: 1.5rem;
 }
 [data-component="wysiwyg"] > *:first-child {
 	margin-top: 0;
