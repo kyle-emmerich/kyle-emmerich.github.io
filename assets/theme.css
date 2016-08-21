@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 [data-component="post"] > h1 {
 	font-size: 3rem;
-	font-weight: 100;
+	font-weight: 200;
 }
 [data-component="post"] > .date-posted {
 	display: block;
@@ -131,12 +131,12 @@ h1, h2, h3, h4, h5, h6 {
 	color: #5DCAE3;
 	color: var(--color-accent);
 	font-size: 3.8rem;
-	font-weight: 100;
+	font-weight: 200;
 }
 [data-component="site-header"] > h2 {
 	font-size: 1.8rem;
 	margin-left: 2em;
-	font-weight: 100;
+	font-weight: 200;
 }
 @media screen and (max-width: 60rem) {
 	[data-component="site-header"] {
@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5, h6 {
 [data-component="wysiwyg"] {
 	font-size: 1.1rem;
 	line-height: 1.2;
-	font-weight: 200;
+	font-weight: 300;
 }
 [data-component="wysiwyg"] > * {
 	margin-top: 1rem;
@@ -438,7 +438,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	font-family: "Exo", sans-serif;
 
-	font-weight: 200
+	font-weight: 300
 }
 
 body {
