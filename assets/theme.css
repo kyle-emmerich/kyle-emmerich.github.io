@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 :root {
 	--site-width: 60rem;
-	--color-accent: #d11;
+	--color-accent: #5DCAE3;
 	--color-subtle: #bbb;
 }
 [data-component="post-list"] > article:first-of-type {
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-left: 1rem;
 }
 [data-component="site-header"] > h1 {
-	color: #d11;
+	color: #5DCAE3;
 	color: var(--color-accent);
 	font-size: 3.8rem;
 	font-weight: 200;
@@ -424,7 +424,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: monospace;
 }
 [data-component="wysiwyg"] a {
-	color: #d11;
+	color: #5DCAE3;
 	color: var(--color-accent);
 }
 
